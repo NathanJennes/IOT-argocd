@@ -14,7 +14,7 @@ spec:
         app: iot-app
     spec:
       containers:
-      - image: https://hub.docker.com/r/wil42/playground/v1
+      - image: hub.docker.com/r/wil42/playground:v1
         name: iot-app
         ports:
         - containerPort: 80
