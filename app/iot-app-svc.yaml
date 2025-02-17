@@ -4,9 +4,7 @@ metadata:
   name: iot-app
 spec:
   ports:
-  - name: 8888-8888
     port: 8888
-    protocol: TCP
     targetPort: 8888
   selector:
     app: iot-app
