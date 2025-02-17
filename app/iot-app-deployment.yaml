@@ -16,7 +16,7 @@ spec:
       containers:
         - image: wil42/playground:v1
           name: iot-app
-        ports:
-          - containerPort: 8888
+      ports:
+        - containerPort: 8888
           name: http
           protocol: TCP
