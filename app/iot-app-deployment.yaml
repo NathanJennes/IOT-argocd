@@ -13,10 +13,10 @@ spec:
       labels:
         app: iot-app
     spec:
-      containers:
-        - image: wil42/playground:v2
-          name: iot-app
       ports:
         - containerPort: 8888
           name: http
           protocol: TCP
+      containers:
+        - image: wil42/playground:v2
+          name: iot-app
